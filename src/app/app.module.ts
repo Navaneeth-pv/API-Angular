@@ -13,6 +13,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute:Routes=[
   {
@@ -61,7 +62,8 @@ const myRoute:Routes=[
     ProductListComponent,
     UserDataComponent,
     ToDoComponent,
-    QuotesComponent
+    QuotesComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
