@@ -7,6 +7,9 @@ import { ViewPassengerComponent } from './view-passenger/view-passenger.componen
 import { UsPublicDataComponent } from './us-public-data/us-public-data.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { UserDataComponent } from './user-data/user-data.component';
+import { ToDoComponent } from './to-do/to-do.component';
+import { QuotesComponent } from './quotes/quotes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ProductListComponent } from './product-list/product-list.component';
     ViewPassengerComponent,
     UsPublicDataComponent,
     UserInfoComponent,
-    ProductListComponent
+    ProductListComponent,
+    UserDataComponent,
+    ToDoComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
